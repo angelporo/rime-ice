@@ -27,10 +27,11 @@ show_notifications_when: appropriate
 # ascii_mode、inline、no_inline、vim_mode 等等设定
 # 可参考 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
 app_options:
-  # com.apple.Spotlight:
-  #   ascii_mode: true    # 开启默认英文
-  # com.microsoft.VSCode:
-  #   ascii_mode: false   # 关闭默认英文
+  com.apple.Emacs:
+    ascii_mode: true    # 开启默认英文
+    input_method: "com.apple.inputmethod.Pinyin"
+  com.microsoft.VSCode:
+    ascii_mode: true   # 关闭默认英文
 
 
 style:
@@ -76,7 +77,7 @@ style:
   # adjust the base line of text
   #base_offset: 0
   font_face: 'Avenir'
-  font_point: 16
+  font_point: 14
   #label_font_face: 'Avenir'
   #label_font_point: 12
   #comment_font_face: 'Avenir'

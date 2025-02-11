@@ -210,7 +210,7 @@ melt_eng:
 cn_en:
   dictionary: ""
   user_dict: en_dicts/cn_en_flypy
-  db_class: stabledb
+  db_class: tabledb
   enable_completion: true
   enable_sentence: false
   initial_quality: 0.5
@@ -222,7 +222,7 @@ cn_en:
 custom_phrase:
   dictionary: ""
   user_dict: custom_phrase_double  # 需要手动创建 custom_phrase_double.txt 文件
-  db_class: stabledb
+  db_class: tabledb
   enable_completion: false # 补全提示
   enable_sentence: false   # 禁止造句
   initial_quality: 99      # custom_phrase 的权重应该比 pinyin 和 melt_eng 大
